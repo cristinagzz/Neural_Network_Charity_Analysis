@@ -7,28 +7,34 @@ In this project we used the attributes in the supplied dataset developing a bina
 ## Results
 
 ### Data Preprocessing
-What variableS are considered the targetS for your model? 
+
+### What variableS are considered the targetS for your model? 
 IS_SUCCESSFUL
 
-What variable(s) are considered to be the features for your model?
+### What variable(s) are considered to be the features for your model?
 APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_CASE, ORGANIZATION, STATUS, INCOME ATM, SPECIAL CONSIDERATIONS, ASK ATM
 
-What variable(s) are neither targets nor features, and should be removed from the input data?
+### What variable(s) are neither targets nor features, and should be removed from the input data?
 EIN and NAME
 
 ### Compiling, Training, and Evaluating the Model
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
+### How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
 As you can see on the image, i used 8 neurons in the first layer and 5 neurons in the second layer. 
 
 In the hidden layers i used "Relu" and "Sigmoid" in the output layers.
 
-Were you able to achieve the target model performance?
+<img width="507" alt="First model" src="https://user-images.githubusercontent.com/108194577/201245779-13c77765-b312-41b8-8495-46d890fb587a.PNG">
+
+
+### Were you able to achieve the target model performance?
 No, my accuracy was .443
 
-![Uploading accuracy.PNG…]()
+<img width="577" alt="accuracy" src="https://user-images.githubusercontent.com/108194577/201245757-46dfb92e-0f63-406a-a151-17ce5ff9b7c1.PNG">
 
-What steps did you take to try and increase model performance?
+
+#### What steps did you take to try and increase model performance?
 I used the following neurons,
 hidden_nodes_layer1 = 80
 hidden_nodes_layer2 = 25
